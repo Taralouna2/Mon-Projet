@@ -1,0 +1,189 @@
+/* Style général */
+
+/* Base styles */
+body {
+    font-family: sans-serif;
+    margin: 0 0 70px 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Ensures consistent box model */
+}
+
+/* Header */
+header {
+    width: 100%;   
+    background-color: #f5f1f7;
+        padding: 60px;
+    background-image: url(image/concept-technologie-connexion-numerique-pour-reseaux-informatiques_410516-30062.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    a:hover {
+            transition: all 0s ease;
+            /* Définir la durée et le type de transition */
+            color: #3de5e8;
+        }
+}
+
+h1 {
+    text-align: center;
+    color: #f5f1f7;
+    
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e9eff0;
+}
+
+/* Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(0, 229, 255);
+}
+
+p {
+    text-align: justify;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Specific sections */
+#accueil {
+background-color: #009dff;
+    padding: 30px 20px 30px;
+}
+#contact,
+#contact p {
+    text-align: center;
+    margin-bottom: 50 px;
+    
+    
+}
+
+#a-propos,
+#cv {
+    text-align: left;
+    background-color: #009dff;
+    padding: 30px 20px 30px;
+}
+
+#galerie {
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid a {
+    margin: 10px;
+}
+
+.image-grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#passions {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#passion-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+#passion-grid a {
+    width: 30%;
+    text-align: center;
+}
+
+#passion-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Media queries (optional) */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+}
+#services{
+    background-color: #009dff;
+        padding: 30px 20px 30px;
+    }
+
+
+.banniere {
+    background-color: #0fdff2;
+    /* Couleur de fond de la bannière */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+
+    
+    /* Centrer le contenu de la bannière */
+}
+.banniere p {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    
+    /* Marge en bas du titre */
+}
+
+p {
+    margin-bottom: 20px;
+    /* Marge en bas du texte */
+}
